@@ -1,10 +1,9 @@
 require 'pry'
-def find_item_by_name_in_collection(name, collection = nil)
-  #item = nil
+def find_item_by_name_in_collection(name, collection)
+  item = nil
   collection.each do |k|
     if k[:item] == name
-      return k
-      #item = k
+      item = k
 end
   end
   #item
