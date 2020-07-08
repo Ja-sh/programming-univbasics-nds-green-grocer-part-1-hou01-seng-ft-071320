@@ -11,26 +11,26 @@ end
 end
 
 def consolidate_cart(cart)
-  new_cart = []
+  c_cart = []
   
   cart.each do |k|
-    f_item = find_item_by_name_in_collection(k[:item], new_cart)
+    f_item = find_item_by_name_in_collection(k[:item], c_cart)
     if f_item
-      new_cart_index = 0
-      new_cart.each do |new_cart_item|
-        if new_cart_item[:item] === f_item[:item]
+      c_cart_index = 0
+      c_cart.each do |new_cart_item|
+        if c_cart_item[:item] === f_item[:item]
           binding.pry
-          new_cart_item[:count] += 1
+          c_cart_item[:count] += 1
         end
-        new_cart_index += 1
+        c_cart_index += 1
       end
     else
       k[:count] = 1
-      new_cart << k
+      c_cart << k
       binding.pry
     end
   end
-  new_cart
+  c_cart
   binding.pry
 end
   
