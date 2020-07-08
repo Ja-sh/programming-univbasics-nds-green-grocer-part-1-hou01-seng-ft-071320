@@ -12,8 +12,8 @@ end
 def consolidate_cart(cart)
 cart.each do |k|
   k[:count] = 0
-  if cart.empty?
-  
+  if cart.any?
+  cart[k[:count]]++
 end
 end
 
