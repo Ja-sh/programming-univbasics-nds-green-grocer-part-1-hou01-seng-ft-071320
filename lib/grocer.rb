@@ -10,13 +10,9 @@ end
 end
 
 def consolidate_cart(cart)
-cart.each do |k|
-  k[:count] = 0
-  if cart.any? 
-  k[:count] +=1
-  
-
-end
+cart.each_with_index |k,v|
+binding.pry
+return k
 end
 end
 
