@@ -12,7 +12,7 @@ end
 def consolidate_cart(cart)
 cart.each do |k , v|
 #binding.pry
-k
+k.to_a
 end
 end
 
