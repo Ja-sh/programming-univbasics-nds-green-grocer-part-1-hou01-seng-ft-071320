@@ -10,10 +10,8 @@ end
 end
 
 def consolidate_cart(cart)
-  collection = []
 cart.each do |k , v|
-#binding.pry
- collection = k.to_a
+k[:count][nil]
  binding.pry
 end
 end
