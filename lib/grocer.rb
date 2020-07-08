@@ -13,7 +13,7 @@ def consolidate_cart(cart)
 cart.each do |k|
   k[:count] = 0
   if cart.any?
-    binding.pry
+    k
 end
 end
 end
