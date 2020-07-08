@@ -14,7 +14,6 @@ cart.each do |k|
   k[:count] = 0
   if cart.include?(k[:item])
     k[:count]++
-  end
 end
 end
 
