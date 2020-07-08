@@ -10,9 +10,8 @@ end
 end
 
 def consolidate_cart(cart)
-  rn = nil
 cart.each do |k|
-  k[:count] = rn
+  k[:count]
 end
 end
 
