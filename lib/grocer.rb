@@ -10,7 +10,7 @@ end
 end
 
 def consolidate_cart(cart)
-cart.each do |k , v|
+cart.each do |k|
  binding.pry
 end
 end
