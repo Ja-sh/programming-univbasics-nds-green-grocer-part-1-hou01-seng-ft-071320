@@ -15,6 +15,8 @@ cart.each do |k|
   k[:count] = 0
   if k[:count] > 0
     k[:count] = quant
+    
+  end
 end
 end
 
