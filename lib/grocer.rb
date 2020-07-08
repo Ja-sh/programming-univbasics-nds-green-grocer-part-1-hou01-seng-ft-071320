@@ -11,7 +11,7 @@ end
 
 def consolidate_cart(cart)
 cart.each do |k|
-  k[:count]
+  k[:count] = 1
 end
 end
 
