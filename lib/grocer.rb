@@ -16,6 +16,7 @@ cart.each do |k|
     k[:count]++
 end
 end
+end
 
 
   
