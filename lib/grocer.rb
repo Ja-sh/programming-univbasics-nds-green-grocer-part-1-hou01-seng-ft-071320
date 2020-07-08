@@ -12,12 +12,9 @@ end
 def consolidate_cart(cart)
 cart.each do |k|
   k[:count] = 0
-  dupes = cart.uniq
   if cart.any? 
   k[:count] +=1
-elsif cart == cart.uniq
-return k
-binding.pry
+  
 
 end
 end
