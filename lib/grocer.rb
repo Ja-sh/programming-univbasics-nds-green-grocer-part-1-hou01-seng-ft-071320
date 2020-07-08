@@ -14,6 +14,8 @@ cart.each do |k|
   k[:count] = 0
   if cart.any? 
   k[:count] +=1
+elsif cart.any?.uniq
+
 end
 end
 end
