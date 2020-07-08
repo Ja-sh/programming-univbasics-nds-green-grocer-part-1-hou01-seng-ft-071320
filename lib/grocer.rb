@@ -1,12 +1,9 @@
 require 'pry'
 def find_item_by_name_in_collection(name, collection)
   collection.each do |k|
-reuse = k[:item] == name
 if k[:item] == name 
   return k
-  elsif reuse.nil?
-  return nil
-    end
+end
   end
 end
 
