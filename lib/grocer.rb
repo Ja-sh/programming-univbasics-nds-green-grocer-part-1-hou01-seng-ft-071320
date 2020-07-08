@@ -19,7 +19,7 @@ def consolidate_cart(cart)
       c_cart_index = 0
       c_cart.each do |c_cart_item|
         if c_cart_item[:item] === f_item[:item]
-          #binding.pry
+          binding.pry
           c_cart_item[:count] += 1
         end
         c_cart_index += 1
