@@ -17,7 +17,7 @@ def consolidate_cart(cart)
     f_item = find_item_by_name_in_collection(k[:item], c_cart)
     if f_item
       c_cart_index = 0
-      c_cart.each do |new_cart_item|
+      c_cart.each do |c_cart_item|
         if c_cart_item[:item] === f_item[:item]
           #binding.pry
           c_cart_item[:count] += 1
