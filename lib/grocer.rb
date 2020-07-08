@@ -15,7 +15,6 @@ cart.each do |k|
   k[:count] = 0
   if k[:count] > quant
     quant++ 
-  end
 end
 end
 
