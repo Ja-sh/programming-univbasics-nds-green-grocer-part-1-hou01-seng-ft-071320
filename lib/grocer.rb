@@ -10,6 +10,7 @@ end
 end
 
 def consolidate_cart(cart)
+  
 end
 
 
