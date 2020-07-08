@@ -3,7 +3,8 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |k|
 if k[:item] == name 
   return k
-  elsif k[:item]
+  elsif k[:item].name.nil?
+  return nil
     end
   end
 end
