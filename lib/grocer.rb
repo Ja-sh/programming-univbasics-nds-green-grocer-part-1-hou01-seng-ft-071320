@@ -10,10 +10,6 @@ end
 end
 
 def consolidate_cart(cart)
-cart.each_with_index |item ,v|
-binding.pry
-return k
-end
 end
 
 
