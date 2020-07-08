@@ -6,7 +6,7 @@ def find_item_by_name_in_collection(name, collection)
       item = k
 end
   end
-  #item
+  item
 end
 
 def consolidate_cart(cart)
