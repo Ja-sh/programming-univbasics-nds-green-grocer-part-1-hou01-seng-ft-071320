@@ -20,14 +20,17 @@ def consolidate_cart(cart)
       new_cart.each do |new_cart_item|
         if new_cart_item[:item] === f_item[:item]
           new_cart_item[:count] += 1
+          binding.pry
         end
         new_cart_index += 1
       end
     else
       k[:count] = 1
       new_cart << k
+      binding.pry
     end
   end
   new_cart
+  binding.pry
 end
   
