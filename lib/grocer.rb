@@ -10,8 +10,11 @@ end
 end
 
 def consolidate_cart(cart)
+  quant = 0
 cart.each do |k|
-  k[:count] = +1
+  k[:count] = 0
+  if k[:count] > 0
+    k[:count] = quant
 end
 end
 
