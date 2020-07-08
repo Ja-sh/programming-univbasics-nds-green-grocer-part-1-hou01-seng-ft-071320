@@ -1,12 +1,13 @@
 require 'pry'
 def find_item_by_name_in_collection(name = nil, collection)
-  item = nil
+  #item = nil
   collection.each do |k|
     if k[:item] == name
-      item = k
+      return k
+      #item = k
 end
   end
-  item
+  #item
 end
 
 def consolidate_cart(cart)
