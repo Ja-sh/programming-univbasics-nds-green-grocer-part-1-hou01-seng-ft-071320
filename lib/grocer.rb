@@ -16,6 +16,8 @@ cart.each do |k|
   if cart.any? 
   k[:count] +=1
 elsif cart == cart.uniq
+return k
+binding.pry
 
 end
 end
