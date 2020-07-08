@@ -11,7 +11,7 @@ end
 
 def consolidate_cart(cart)
 cart.each do |k , v|
-k[:count][nil]
+k[:count][ni]
  binding.pry
 end
 end
