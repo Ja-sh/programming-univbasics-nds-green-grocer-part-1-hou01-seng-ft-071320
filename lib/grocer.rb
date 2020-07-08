@@ -13,7 +13,7 @@ def consolidate_cart(cart)
   quant = 0
 cart.each do |k|
   k[:count] = 0
-  if k[:count] > k[:item]
+  if k[:item] > k[:item]
     ++ qunat
   end
 end
