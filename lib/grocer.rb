@@ -14,7 +14,7 @@ cart.each do |k|
   k[:count] = 0
   if cart == cart
     binding.pry
-    k[:count] += 1
+    k[:count] ++
 end
 end
 end
