@@ -18,7 +18,7 @@ def consolidate_cart(cart)
     if f_item
       c_cart_index = 0
       c_cart.each do |new_cart_item|
-        if c_cart[:item] === f_item[:item]
+        if c_cart_item[:item] === f_item[:item]
           #binding.pry
           c_cart_item[:count] += 1
         end
