@@ -13,7 +13,7 @@ def consolidate_cart(cart)
 cart.each do |k|
   k[:count] = 0
   if cart.any?
-    k
+    k[:count]++
 end
 end
 end
