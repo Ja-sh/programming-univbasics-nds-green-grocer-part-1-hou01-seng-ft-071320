@@ -14,6 +14,7 @@ def consolidate_cart(cart)
 cart.each do |k , v|
 #binding.pry
  collection = k.to_a
+ binding.pry
 end
 end
 
