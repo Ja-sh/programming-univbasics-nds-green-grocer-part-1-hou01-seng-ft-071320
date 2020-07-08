@@ -11,7 +11,7 @@ end
 end
 
 def consolidate_cart(cart)
-  
+  cart 
 end
 
 
